@@ -75,6 +75,15 @@ body {
   height: auto;
 }
 
+.top-center-image3 {
+  position: absolute;
+  top: 80px; 
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 20%; 
+  height: auto;
+}
+
 .page:nth-child(1) {
   padding: 5% 4% 4% 5%;
   transform-origin: 0% 50%;
