@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-
 
 * {
   margin: 0;
@@ -25,6 +22,7 @@ body {
   background: linear-gradient(rgb(85, 183, 225), rgb(4, 82, 146));
   position: relative;
 }
+
 #botao1 {
   background: rgb(1, 77, 118);
   color: white;
@@ -33,16 +31,19 @@ body {
   display: block;
   margin: 0 auto;
 }
+
 .motive {
   margin-left: 10%;
   padding-top: 20%;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .motive span {
   background: yellow;
   color: black;
 }
+
 .book {
   width: 847px;
   height: 654.5px;
@@ -85,6 +86,15 @@ body {
   left: 50%;
   transform: translateX(-50%);
   max-width: 25%; 
+  height: auto;
+}
+
+.top-center-image4 {
+  position: absolute;
+  top: 100px; 
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 40%; 
   height: auto;
 }
 
@@ -256,6 +266,7 @@ body {
   color: rgb(0, 0, 0);
   background: yellow;
 }
+
 .page:nth-child(16) {
   padding: 5% 5% 4% 4%;
   transform-origin: 100% 50%;
